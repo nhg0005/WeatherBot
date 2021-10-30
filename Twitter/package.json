@@ -1,0 +1,20 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "A simple bot for Twitter than replies to users with the weather based on the input they pass.",
+  "main": "twitterbot.js",
+  "scripts": {
+    "start": "node twitterbot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.5",
+    "twit": "^2.2.11",
+    "twitter-api-client": "^1.4.0"
+  }
+}
